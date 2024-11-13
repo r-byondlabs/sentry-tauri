@@ -12,7 +12,7 @@ exclude = ["/examples", "/node_modules", "/target"]
 [dependencies]
 base64 = "0.22"
 sentry = { version = "0.34.0", default-features = false, features = ["backtrace", "contexts", "panic", "reqwest", "rustls"] }
-sentry-rust-minidump = { git = "https://github.com/raags/sentry-tauri.git", version = "0.8" }
+sentry-rust-minidump = { git = "https://github.com/r-byondlabs/sentry-rust-minidump.git", version = "0.8" }
 serde = "1"
 tauri = "2"
 thiserror = "1"
